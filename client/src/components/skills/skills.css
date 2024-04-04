@@ -1,0 +1,46 @@
+.skills__container
+{
+    grid-template-columns: repeat(5, 1fr);
+    padding: 0px 10px;
+}
+
+.skills__card
+{
+    text-align: center;
+    background-color: var(--container-color);
+    border: 1px solid rgba(0,0,0, 0.2);
+    border-radius: 0.75rem;
+    padding: 1.5rem 1rem;
+}
+
+.skills__icon
+{
+    font-size: 2rem;
+    color: var(--title-color);
+    margin-bottom: var(--mb-0-5);
+}
+
+.skills__title
+{
+    font-size: var(--small-font-size);
+    font-weight: var(--font-medium);
+}
+
+@media screen and (max-width: 992px) {
+    .skills__container
+    {
+        grid-template-columns: repeat(3, 150px);
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .skills__container
+    {
+        grid-template-columns: repeat(2, 150px);
+    }
+}
+  
+  /* For small devices */
+@media screen and (max-width: 350px) {
+}
