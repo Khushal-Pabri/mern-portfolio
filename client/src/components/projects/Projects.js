@@ -20,7 +20,7 @@ function Projects()
                         </div>
 
                         <div className="projects__desc">
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                            <p>Built a secure blog application with JWT authentication, enabling users to register, login, create and edit their posts. Implemented database connectivity for efficient storage and retrieval of user data. Home page displays all posts for seamless exploration.</p>
                         </div>
 
                         <div className="projects__buttons">

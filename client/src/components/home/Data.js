@@ -58,7 +58,7 @@ function Data()
                 </svg>
             </h1>
             <h3 className="home__subtitle">Full Stack Developer</h3>
-            <p className="home__description">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+            <p className="home__description">I am a student at Delhi Technological University, currently pursuing my BTech in Computer Science.</p>
 
             <a href="#contact" className="button button--flex">
                 Say Hello

@@ -17,7 +17,7 @@ function About()
                 <div className="about__data">
                     <Info />
 
-                    <p className="about__description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+                    <p className="about__description">I'm Khushal Pabri, a motivated student at Delhi Technological University, currently pursuing BTech in Computer Science. I'm driven by a passion for technology and a desire to make a positive impact. Always eager to explore new opportunities and challenges in the ever-evolving world of technology.</p>
 
                     <a download="" href={CV} className="button button--flex">
                         Download CV
