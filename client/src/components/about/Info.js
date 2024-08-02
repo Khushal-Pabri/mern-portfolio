@@ -5,9 +5,9 @@ function Info()
     return(
         <div className="about__info grid">
             <div className="about__box">
-                <i class='bx bx-code-block about__icon'></i>
-                <h3 className="about__title">Leetcode</h3>
-                <span className="about__subtitle">150+ Problems Solved</span>
+                <i class='bx bxs-briefcase about__icon'></i>
+                <h3 className="about__title">Internship</h3>
+                <span className="about__subtitle">Interned at Netesenz</span>
             </div>
 
             <div className="about__box">

@@ -17,12 +17,16 @@
 
 .projects__img
 {
-    width: 370px;
-    height: 300px;
+    height: 300px; 
     justify-self: center;
     border-radius: 0.75rem;
     border: 1px solid rgba(0,0,0, 0.2);
     justify-self: start;
+}
+
+.coverimg img
+{
+    object-fit: cover;
 }
 
 .right
@@ -71,10 +75,13 @@
     {
         grid-template-columns: 1fr;
     }
+    img
+    {
+        max-width: 400px;
+    }
     .projects__img
     {
         justify-self: center;
-        width: 350px;
     }
     .right
     {

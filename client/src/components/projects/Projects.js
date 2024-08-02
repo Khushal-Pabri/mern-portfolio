@@ -1,7 +1,8 @@
 import React from "react";
 import "./projects.css"
-import PROJECT1 from "../../assets/MyBlogss.png"
-import SOON from "../../assets/comingSoon.avif"
+import PROJECT1 from "../../assets/BlogNest.png"
+import PROJECT2 from "../../assets/Discord.png"
+import PROJECT3 from "../../assets/LinkShrinker.png"
 
 function Projects()
 {
@@ -16,7 +17,7 @@ function Projects()
                     <img src={PROJECT1} className="projects__img"/>
                     <div className="projects__data">
                         <div className="projects__title">
-                            <h3>MyBlog</h3>
+                            <h3>BlogNest</h3>
                         </div>
 
                         <div className="projects__desc">
@@ -36,8 +37,8 @@ function Projects()
                     </div>
                 </div>
 
-                <div className="projects__card grid">
-                    <img src={SOON} className="projects__img right"/>
+                <div className="projects__card grid coverimg">
+                    <img src={PROJECT2} className="projects__img right"/>
                     <div className="projects__data">
                         <div className="projects__title">
                             <h3>Coming Soon</h3>
@@ -48,20 +49,16 @@ function Projects()
                         </div>
 
                         <div className="projects__buttons">
-                            <a className="projects__button button--flex">
+                            <a className="projects__button button--flex" href = "https://github.com/Khushal-Pabri/newsBot" target="blank">
                                 GitHub
                                 <i class='bx bxl-github projects__button-icon'></i>
-                            </a>
-                            <a className="projects__button button--flex">
-                                Live Demo
-                                <i class='bx bx-link-external projects__button-icon'></i>
                             </a>
                         </div>
                     </div>
                 </div>
 
-                <div className="projects__card grid">
-                    <img src={SOON} className="projects__img"/>
+                <div className="projects__card grid coverimg">
+                    <img src={PROJECT3} className="projects__img"/>
                     <div className="projects__data">
                         <div className="projects__title">
                             <h3>Coming Soon</h3>
@@ -72,13 +69,9 @@ function Projects()
                         </div>
 
                         <div className="projects__buttons">
-                            <a className="projects__button button--flex">
+                            <a className="projects__button button--flex" href = "https://github.com/Khushal-Pabri/LinkShrinker" target="blank">
                                 GitHub
                                 <i class='bx bxl-github projects__button-icon'></i>
-                            </a>
-                            <a className="projects__button button--flex">
-                                Live Demo
-                                <i class='bx bx-link-external projects__button-icon'></i>
                             </a>
                         </div>
                     </div>
