@@ -41,11 +41,11 @@ function Projects()
                     <img src={PROJECT2} className="projects__img right"/>
                     <div className="projects__data">
                         <div className="projects__title">
-                            <h3>Coming Soon</h3>
+                            <h3>NewsBot</h3>
                         </div>
 
                         <div className="projects__desc">
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                            <p>NewsBot is a Discord bot that lets users create profiles and store news preferences. It scrapes news from Google News using Puppeteer, automates updates at user-defined intervals with Node Schedule, and offers commands for API-based searches and archived articles.</p>
                         </div>
 
                         <div className="projects__buttons">
@@ -61,11 +61,11 @@ function Projects()
                     <img src={PROJECT3} className="projects__img"/>
                     <div className="projects__data">
                         <div className="projects__title">
-                            <h3>Coming Soon</h3>
+                            <h3>LinkShrinker</h3>
                         </div>
 
                         <div className="projects__desc">
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                            <p>LinkShrinker is a URL shortening service built with Node.js, Express, and MongoDB. It supports custom aliases, user-specific URL management, visit tracking with analytics, and QR code generation for enhanced sharing and accessibility.</p>
                         </div>
 
                         <div className="projects__buttons">
