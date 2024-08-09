@@ -39,7 +39,7 @@ function Skills()
                 </div>
                 <div className="skills__card">
                     <i class='bx bxs-data skills__icon'></i>
-                    <h3 className="skills__title">MySQL</h3>
+                    <h3 className="skills__title">SQL</h3>
                 </div>
                 <div className="skills__card">
                     <i class='bx bxl-git skills__icon'></i>
